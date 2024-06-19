@@ -7,8 +7,8 @@ const rl = readline. createInterface({
 })
 
 let acertos = 0 
-let aleatorio = Math.floor(Math.random() * 100)+1
-let tentativas = 10
+let aleatorio = Math.floor(Math.random() * 200)+100
+let tentativas = 20
 console.log(`bem-vindo!!!\n voce tem ${tentativas} tentativas.`)
 
 function palpite() { 
